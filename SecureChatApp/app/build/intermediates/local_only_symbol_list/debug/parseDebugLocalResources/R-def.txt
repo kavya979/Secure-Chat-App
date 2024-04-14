@@ -1,0 +1,22 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color ic_launcher_background
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id Name
+id avatarImageView
+id contactsList
+id main
+id user_name
+layout activity_main
+layout chat_interface
+layout item_layout
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Base.Theme.SecureChatApp
+style Theme.SecureChatApp
+xml backup_rules
+xml data_extraction_rules
