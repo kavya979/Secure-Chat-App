@@ -12,16 +12,76 @@
         "source": "C:\\Users\\Manibharathi\\.gradle\\daemon\\8.4\\com.example.securechatapp-main-33:\\mipmap-xxhdpi\\ic_launcher.webp"
     },
     {
+        "merged": "C:\\Users\\Manibharathi\\.gradle\\daemon\\8.4\\com.example.securechatapp-debug-31:\\mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\Manibharathi\\.gradle\\daemon\\8.4\\com.example.securechatapp-main-33:\\mipmap-xxxhdpi\\ic_launcher_foreground.webp"
+    },
+    {
         "merged": "C:\\Users\\Manibharathi\\.gradle\\daemon\\8.4\\com.example.securechatapp-debug-31:\\drawable_ic_launcher_foreground.xml.flat",
         "source": "C:\\Users\\Manibharathi\\.gradle\\daemon\\8.4\\com.example.securechatapp-main-33:\\drawable\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\Manibharathi\\.gradle\\daemon\\8.4\\com.example.securechatapp-debug-31:\\mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Manibharathi\\.gradle\\daemon\\8.4\\com.example.securechatapp-main-33:\\mipmap-hdpi\\ic_launcher_round.webp"
-    },
-    {
         "merged": "C:\\Users\\Manibharathi\\.gradle\\daemon\\8.4\\com.example.securechatapp-debug-31:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\Manibharathi\\.gradle\\daemon\\8.4\\com.example.securechatapp-main-33:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Manibharathi\\.gradle\\daemon\\8.4\\com.example.securechatapp-debug-31:\\mipmap-mdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\Manibharathi\\.gradle\\daemon\\8.4\\com.example.securechatapp-main-33:\\mipmap-mdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\Manibharathi\\.gradle\\daemon\\8.4\\com.example.securechatapp-debug-31:\\layout_avatar_selector.xml.flat",
+        "source": "C:\\Users\\Manibharathi\\.gradle\\daemon\\8.4\\com.example.securechatapp-main-33:\\layout\\avatar_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\Manibharathi\\.gradle\\daemon\\8.4\\com.example.securechatapp-debug-31:\\mipmap-hdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\Manibharathi\\.gradle\\daemon\\8.4\\com.example.securechatapp-main-33:\\mipmap-hdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\Manibharathi\\.gradle\\daemon\\8.4\\com.example.securechatapp-debug-31:\\drawable_avatar_female.png.flat",
+        "source": "C:\\Users\\Manibharathi\\.gradle\\daemon\\8.4\\com.example.securechatapp-main-33:\\drawable\\avatar_female.png"
+    },
+    {
+        "merged": "C:\\Users\\Manibharathi\\.gradle\\daemon\\8.4\\com.example.securechatapp-debug-31:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Manibharathi\\.gradle\\daemon\\8.4\\com.example.securechatapp-main-33:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Manibharathi\\.gradle\\daemon\\8.4\\com.example.securechatapp-debug-31:\\layout_item_layout.xml.flat",
+        "source": "C:\\Users\\Manibharathi\\.gradle\\daemon\\8.4\\com.example.securechatapp-main-33:\\layout\\item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Manibharathi\\.gradle\\daemon\\8.4\\com.example.securechatapp-debug-31:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Manibharathi\\.gradle\\daemon\\8.4\\com.example.securechatapp-main-33:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Manibharathi\\.gradle\\daemon\\8.4\\com.example.securechatapp-debug-31:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Manibharathi\\.gradle\\daemon\\8.4\\com.example.securechatapp-main-33:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Manibharathi\\.gradle\\daemon\\8.4\\com.example.securechatapp-debug-31:\\mipmap-xhdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\Manibharathi\\.gradle\\daemon\\8.4\\com.example.securechatapp-main-33:\\mipmap-xhdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\Manibharathi\\.gradle\\daemon\\8.4\\com.example.securechatapp-debug-31:\\drawable_avatar_male.png.flat",
+        "source": "C:\\Users\\Manibharathi\\.gradle\\daemon\\8.4\\com.example.securechatapp-main-33:\\drawable\\avatar_male.png"
+    },
+    {
+        "merged": "C:\\Users\\Manibharathi\\.gradle\\daemon\\8.4\\com.example.securechatapp-debug-31:\\drawable_avatar_selector.xml.flat",
+        "source": "C:\\Users\\Manibharathi\\.gradle\\daemon\\8.4\\com.example.securechatapp-main-33:\\drawable\\avatar_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\Manibharathi\\.gradle\\daemon\\8.4\\com.example.securechatapp-debug-31:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Manibharathi\\.gradle\\daemon\\8.4\\com.example.securechatapp-main-33:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Manibharathi\\.gradle\\daemon\\8.4\\com.example.securechatapp-debug-31:\\drawable_search_bar_shape.xml.flat",
+        "source": "C:\\Users\\Manibharathi\\.gradle\\daemon\\8.4\\com.example.securechatapp-main-33:\\drawable\\search_bar_shape.xml"
+    },
+    {
+        "merged": "C:\\Users\\Manibharathi\\.gradle\\daemon\\8.4\\com.example.securechatapp-debug-31:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Manibharathi\\.gradle\\daemon\\8.4\\com.example.securechatapp-main-33:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Manibharathi\\.gradle\\daemon\\8.4\\com.example.securechatapp-debug-31:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Manibharathi\\.gradle\\daemon\\8.4\\com.example.securechatapp-main-33:\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
         "merged": "C:\\Users\\Manibharathi\\.gradle\\daemon\\8.4\\com.example.securechatapp-debug-31:\\drawable_ic_launcher_background.xml.flat",
@@ -32,24 +92,12 @@
         "source": "C:\\Users\\Manibharathi\\.gradle\\daemon\\8.4\\com.example.securechatapp-main-33:\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\Manibharathi\\.gradle\\daemon\\8.4\\com.example.securechatapp-debug-31:\\layout_item_layout.xml.flat",
-        "source": "C:\\Users\\Manibharathi\\.gradle\\daemon\\8.4\\com.example.securechatapp-main-33:\\layout\\item_layout.xml"
-    },
-    {
-        "merged": "C:\\Users\\Manibharathi\\.gradle\\daemon\\8.4\\com.example.securechatapp-debug-31:\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Manibharathi\\.gradle\\daemon\\8.4\\com.example.securechatapp-main-33:\\mipmap-mdpi\\ic_launcher.webp"
-    },
-    {
         "merged": "C:\\Users\\Manibharathi\\.gradle\\daemon\\8.4\\com.example.securechatapp-debug-31:\\layout_activity_main.xml.flat",
         "source": "C:\\Users\\Manibharathi\\.gradle\\daemon\\8.4\\com.example.securechatapp-main-33:\\layout\\activity_main.xml"
     },
     {
         "merged": "com.example.securechatapp-debug-31:/layout_item_layout.xml.flat",
         "source": "com.example.securechatapp-main-33:/layout/item_layout.xml"
-    },
-    {
-        "merged": "C:\\Users\\Manibharathi\\.gradle\\daemon\\8.4\\com.example.securechatapp-debug-31:\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Manibharathi\\.gradle\\daemon\\8.4\\com.example.securechatapp-main-33:\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
         "merged": "C:\\Users\\Manibharathi\\.gradle\\daemon\\8.4\\com.example.securechatapp-debug-31:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
@@ -60,20 +108,12 @@
         "source": "C:\\Users\\Manibharathi\\.gradle\\daemon\\8.4\\com.example.securechatapp-main-33:\\xml\\data_extraction_rules.xml"
     },
     {
-        "merged": "C:\\Users\\Manibharathi\\.gradle\\daemon\\8.4\\com.example.securechatapp-debug-31:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Manibharathi\\.gradle\\daemon\\8.4\\com.example.securechatapp-main-33:\\mipmap-xhdpi\\ic_launcher_round.webp"
-    },
-    {
         "merged": "C:\\Users\\Manibharathi\\.gradle\\daemon\\8.4\\com.example.securechatapp-debug-31:\\layout_chat_interface.xml.flat",
         "source": "C:\\Users\\Manibharathi\\.gradle\\daemon\\8.4\\com.example.securechatapp-main-33:\\layout\\chat_interface.xml"
     },
     {
-        "merged": "C:\\Users\\Manibharathi\\.gradle\\daemon\\8.4\\com.example.securechatapp-debug-31:\\mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Manibharathi\\.gradle\\daemon\\8.4\\com.example.securechatapp-main-33:\\mipmap-mdpi\\ic_launcher_round.webp"
-    },
-    {
-        "merged": "C:\\Users\\Manibharathi\\.gradle\\daemon\\8.4\\com.example.securechatapp-debug-31:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\Manibharathi\\.gradle\\daemon\\8.4\\com.example.securechatapp-main-33:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "C:\\Users\\Manibharathi\\.gradle\\daemon\\8.4\\com.example.securechatapp-debug-31:\\mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\Manibharathi\\.gradle\\daemon\\8.4\\com.example.securechatapp-main-33:\\mipmap-xxhdpi\\ic_launcher_foreground.webp"
     },
     {
         "merged": "C:\\Users\\Manibharathi\\.gradle\\daemon\\8.4\\com.example.securechatapp-debug-31:\\mipmap-hdpi_ic_launcher.webp.flat",

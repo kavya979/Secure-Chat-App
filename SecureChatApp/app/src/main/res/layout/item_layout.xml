@@ -10,9 +10,8 @@
         android:id="@+id/avatarImageView"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:src="@drawable/ic_launcher_foreground"
-        android:contentDescription="@drawable/ic_launcher_foreground" />
-
+        android:src="@drawable/avatar_selector"
+        android:contentDescription="Avatar Image" />
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

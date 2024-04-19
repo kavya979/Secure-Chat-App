@@ -3,12 +3,17 @@ local
 color black
 color ic_launcher_background
 color white
+drawable avatar_female
+drawable avatar_male
+drawable avatar_selector
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+drawable search_bar_shape
 id Name
 id avatarImageView
 id contactsList
 id main
+id searchView
 id user_name
 layout activity_main
 layout chat_interface

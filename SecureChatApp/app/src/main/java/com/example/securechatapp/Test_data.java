@@ -1,29 +1,25 @@
 package com.example.securechatapp;
 
-import java.util.ArrayList;
-
 public class Test_data {
-    public String Names;
-    public String unames;
+    private String Names;
+    private String unames;
+    private String gender;
+
+    public Test_data(String name, String uname, String gender) {
+        this.Names = name;
+        this.unames = uname;
+        this.gender = gender;
+    }
 
     public String getNames() {
         return Names;
-    }
-
-    public void setNames(String names) {
-        Names = names;
     }
 
     public String getUnames() {
         return unames;
     }
 
-    public void setUnames(String unames) {
-        this.unames = unames;
-    }
+    public String getGender(){ return gender; }
 
-    public Test_data(String names, String unames) {
-        Names = names;
-        this.unames = unames;
-    }
 }
+
