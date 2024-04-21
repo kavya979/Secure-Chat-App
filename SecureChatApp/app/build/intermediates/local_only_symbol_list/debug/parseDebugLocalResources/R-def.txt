@@ -22,8 +22,13 @@ drawable send
 id Name
 id avatarImageView
 id buttonGetOtp
+id buttonSubmit
 id buttonVerify
+id chat_recycler_view
+id contact_name_text_view
 id contactsList
+id editTextUsername
+id imageView
 id inputCode1
 id inputCode2
 id inputCode3
@@ -32,12 +37,16 @@ id inputCode5
 id inputCode6
 id inputMobile
 id main
+id message_edit_text
 id searchView
+id send_button
 id textMobile
 id textResendOTP
 id user_name
+layout activity_chat
 layout activity_main
 layout activity_send_otpactivity
+layout activity_username
 layout activity_verify_otpactivity
 layout chat_interface
 layout item_layout
@@ -50,6 +59,7 @@ string app_name
 string didn_t_receive_the_otp
 string enter_the_mobile_number
 string enter_the_otp_sent_to
+string enter_your_username
 string gcm_defaultSenderId
 string get_otp
 string google_api_key
@@ -60,6 +70,7 @@ string otp_verification
 string project_id
 string resend_otp
 string send_otp
+string submit
 string verify_otp
 string we_will_send_you_an_one_time_password_on_this_mobile_number
 style AppTheme

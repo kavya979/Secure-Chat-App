@@ -81,9 +81,10 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClickListener(int position) {
                 // Handle item click
-                // sample toast_____ aprm ah delete
-                Toast.makeText(MainActivity.this, "Item clicked", Toast.LENGTH_SHORT).show();
-
+                Test_data selectedContact = contacts.get(position);
+                Intent intent = new Intent(MainActivity.this, ChatActivity.class);
+                intent.putExtra("contactName", selectedContact.getNames());
+                startActivity(intent);
             }
         });
         recyclerView.setAdapter(adapter);

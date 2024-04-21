@@ -3209,6 +3209,7 @@ id browser_actions_menu_items
 id browser_actions_menu_view
 id buttonGetOtp
 id buttonPanel
+id buttonSubmit
 id buttonVerify
 id cache_measures
 id callMeasure
@@ -3222,6 +3223,7 @@ id center_vertical
 id chain
 id chain2
 id chains
+id chat_recycler_view
 id checkbox
 id checked
 id chronometer
@@ -3235,6 +3237,7 @@ id collapseActionView
 id compress
 id confirm_button
 id constraint
+id contact_name_text_view
 id contactsList
 id container
 id content
@@ -3284,6 +3287,7 @@ id easeInOut
 id easeOut
 id east
 id edge
+id editTextUsername
 id edit_query
 id elastic
 id embed
@@ -3332,6 +3336,7 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imageView
 id immediateStop
 id included
 id indeterminate
@@ -3388,6 +3393,7 @@ id material_timepicker_view
 id material_value_index
 id matrix
 id message
+id message_edit_text
 id middle
 id mini
 id month_grid
@@ -3511,6 +3517,7 @@ id search_voice_btn
 id select_dialog_listview
 id selected
 id selection_type
+id send_button
 id sharedValueSet
 id sharedValueUnset
 id shortcut
@@ -3737,8 +3744,10 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_chat
 layout activity_main
 layout activity_send_otpactivity
+layout activity_username
 layout activity_verify_otpactivity
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
@@ -3890,6 +3899,7 @@ string copy_toast_msg
 string didn_t_receive_the_otp
 string enter_the_mobile_number
 string enter_the_otp_sent_to
+string enter_your_username
 string error_a11y_label
 string error_icon_content_description
 string exposed_dropdown_menu_content_description
@@ -4023,6 +4033,7 @@ string send_otp
 string side_sheet_accessibility_pane_title
 string side_sheet_behavior
 string status_bar_notification_info_overflow
+string submit
 string verify_otp
 string we_will_send_you_an_one_time_password_on_this_mobile_number
 style AlertDialog_AppCompat

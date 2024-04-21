@@ -18,6 +18,7 @@
     <string name="didn_t_receive_the_otp">Didn\'t receive the OTP?</string>
     <string name="enter_the_mobile_number">Enter the Mobile Number</string>
     <string name="enter_the_otp_sent_to">Enter the OTP sent to</string>
+    <string name="enter_your_username">Enter Your Username</string>
     <string name="gcm_defaultSenderId" translatable="false">1054176347986</string>
     <string name="get_otp">Get OTP</string>
     <string name="google_api_key" translatable="false">AIzaSyCY93vjc48PNEo8pmKl1XOHHGTxTx2wv7g</string>
@@ -28,6 +29,7 @@
     <string name="project_id" translatable="false">chatapp-eb767</string>
     <string name="resend_otp">resend otp</string>
     <string name="send_otp">Send OTP</string>
+    <string name="submit">Submit</string>
     <string name="verify_otp">VERIFY OTP</string>
     <string name="we_will_send_you_an_one_time_password_on_this_mobile_number">We will send you an One Time Password on this mobile number</string>
     <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">

@@ -23,10 +23,11 @@ import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.PhoneAuthCredential;
 import com.google.firebase.auth.PhoneAuthProvider;
+import com.google.firebase.firestore.auth.User;
 
 public class VerifyOTPActivity extends AppCompatActivity {
     private EditText inputCode1,inputCode2,inputCode3,inputCode4,inputCode5,inputCode6;
-    private String verificationID , enteredCode;
+    private String verificationID , enteredCode , mobile;
     private Button button;
 
     FirebaseAuth mAuth = FirebaseAuth.getInstance();
@@ -52,6 +53,8 @@ public class VerifyOTPActivity extends AppCompatActivity {
 
         verificationID = getIntent().getStringExtra("verificationID");
 
+        mobile = getIntent().getStringExtra("mobile");
+
         button = findViewById(R.id.buttonVerify);
 
         button.setOnClickListener(new View.OnClickListener() {
@@ -64,7 +67,8 @@ public class VerifyOTPActivity extends AppCompatActivity {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if(task.isSuccessful()){
-                            Intent intent = new Intent(VerifyOTPActivity.this,MainActivity.class);
+                            Intent intent = new Intent(VerifyOTPActivity.this, Username.class);
+                            intent.putExtra("mobile",mobile);
                             startActivity(intent);
                             finish();
                         }

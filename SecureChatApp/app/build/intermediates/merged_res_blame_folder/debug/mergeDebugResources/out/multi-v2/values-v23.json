@@ -4,7 +4,7 @@
             "outputFile": "com.example.securechatapp-mergeDebugResources-34:/values-v23/values-v23.xml",
             "map": [
                 {
-                    "source": "/Users/anees/.gradle/caches/transforms-3/f0bb0b73702172f555f3ce0d1be011ea/transformed/appcompat-1.6.1/res/values-v23/values-v23.xml",
+                    "source": "/Users/anees/.gradle/caches/transforms-3/ff363ec88df9a65b1e421b41ebf56cad/transformed/appcompat-1.6.1/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,20,34,35,36,39,43,44,45,46",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -15,7 +15,7 @@
                     }
                 },
                 {
-                    "source": "/Users/anees/.gradle/caches/transforms-3/98f4e33f0ee3640dec0536886f0635bb/transformed/material-1.10.0/res/values-v23/values-v23.xml",
+                    "source": "/Users/anees/.gradle/caches/transforms-3/2700ced0be050ad28d775ea8eb0b1025/transformed/material-1.10.0/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2,5,9,13,16,21,25,28,31,34,39,42,46",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -34,7 +34,7 @@
                     }
                 },
                 {
-                    "source": "/Users/anees/.gradle/caches/transforms-3/baf0d2364b4f79789e14d020743b6ca9/transformed/cardview-1.0.0/res/values-v23/values-v23.xml",
+                    "source": "/Users/anees/.gradle/caches/transforms-3/ba73c5d07a52136bf02c7a79a52a781c/transformed/cardview-1.0.0/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
