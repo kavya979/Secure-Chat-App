@@ -50,6 +50,7 @@ public class ChatInterfaceRecyclerAdapter extends RecyclerView.Adapter<ChatInter
 
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
+
         holder.Name.setText(contacts.get(position).getNames());
         holder.user_name.setText(contacts.get(position).getUnames());
     }

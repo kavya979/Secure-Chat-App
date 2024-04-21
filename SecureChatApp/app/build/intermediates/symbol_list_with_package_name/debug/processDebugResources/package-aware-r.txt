@@ -3044,6 +3044,7 @@ drawable material_ic_keyboard_arrow_previous_black_24dp
 drawable material_ic_keyboard_arrow_right_black_24dp
 drawable material_ic_menu_arrow_down_black_24dp
 drawable material_ic_menu_arrow_up_black_24dp
+drawable message_background
 drawable mtrl_bottomsheet_drag_handle
 drawable mtrl_checkbox_button
 drawable mtrl_checkbox_button_checked_unchecked
@@ -3223,6 +3224,8 @@ id center_vertical
 id chain
 id chain2
 id chains
+id chat_input_edit_text
+id chat_input_layout
 id chat_recycler_view
 id checkbox
 id checked
@@ -3393,7 +3396,7 @@ id material_timepicker_view
 id material_value_index
 id matrix
 id message
-id message_edit_text
+id message_text_view
 id middle
 id mini
 id month_grid
@@ -3769,6 +3772,7 @@ layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout item_layout
+layout item_message
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title

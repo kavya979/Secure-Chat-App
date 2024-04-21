@@ -16,6 +16,7 @@ drawable avatar_male
 drawable avatar_selector
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+drawable message_background
 drawable receive
 drawable search_bar_shape
 drawable send
@@ -24,6 +25,8 @@ id avatarImageView
 id buttonGetOtp
 id buttonSubmit
 id buttonVerify
+id chat_input_edit_text
+id chat_input_layout
 id chat_recycler_view
 id contact_name_text_view
 id contactsList
@@ -37,7 +40,7 @@ id inputCode5
 id inputCode6
 id inputMobile
 id main
-id message_edit_text
+id message_text_view
 id searchView
 id send_button
 id textMobile
@@ -50,6 +53,7 @@ layout activity_username
 layout activity_verify_otpactivity
 layout chat_interface
 layout item_layout
+layout item_message
 mipmap ic_launcher
 mipmap ic_launcher_round
 string Verify
