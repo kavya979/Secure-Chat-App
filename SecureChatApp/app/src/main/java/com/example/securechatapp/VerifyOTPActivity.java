@@ -1,4 +1,4 @@
-package com.example.securechatapp;
+package com.example.myapplication;
 
 import android.os.Bundle;
 import android.text.Editable;
@@ -26,10 +26,12 @@ public class VerifyOTPActivity extends AppCompatActivity {
         ));
 
 
-        inputCode1 = findViewById(R.id.inputcode1);
-        inputCode2 = findViewById(R.id.inputcode2);
-        inputCode3 = findViewById(R.id.inputcode3);
-        inputCode4 = findViewById(R.id.inputcode4);
+        inputCode1 = findViewById(R.id.inputCode1);
+        inputCode2 = findViewById(R.id.inputCode2);
+        inputCode3 = findViewById(R.id.inputCode3);
+        inputCode4 = findViewById(R.id.inputCode4;
+        inputCode4 = findViewById(R.id.inputCode5);
+        inputCode4 = findViewById(R.id.inputCode6);
         setupOTPinputs();
     }
     private void setupOTPinputs(){
@@ -81,6 +83,7 @@ public class VerifyOTPActivity extends AppCompatActivity {
                     inputCode4.requestFocus();
                 }
             }
+
 
             @Override
             public void afterTextChanged(Editable s) {
