@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">Secure Chat App</string>
+    <string name="otp_verification">OTP_VERIFICATION</string>
+    <string name="we_will_send_you_an_one_time_password_on_this_mobile_number">We will send you an One Time Password on this mobile number</string>
+    <string name="enter_the_mobile_number">Enter the Mobile Number</string>
+    <string name="_91">+91-</string>
+    <string name="_6006082213">6006082213</string>
+    <string name="get_otp">Get OTP</string>
+    <string name="enter_the_otp_sent_to">Enter the OTP sent to</string>
+    <string name="didn_t_receive_the_otp">Didn\'t receive the OTP?</string>
+    <string name="resend_otp">resend otp</string>
+    <string name="Verify">Verify</string>
+    <string name="verify_otp">VERIFY OTP</string>
+    <string name="send_otp">Send OTP</string>
 </resources>
