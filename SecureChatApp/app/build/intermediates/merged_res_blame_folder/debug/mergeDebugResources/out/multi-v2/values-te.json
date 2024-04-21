@@ -4,58 +4,7 @@
             "outputFile": "com.example.securechatapp-mergeDebugResources-34:/values-te/values-te.xml",
             "map": [
                 {
-                    "source": "/Users/anees/.gradle/caches/transforms-3/d6b5038a795d115b79b360a5154e8ddf/transformed/core-1.9.0/res/values-te/values-te.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "124",
-                        "startColumns": "4",
-                        "startOffsets": "11391",
-                        "endColumns": "100",
-                        "endOffsets": "11487"
-                    }
-                },
-                {
-                    "source": "/Users/anees/.gradle/caches/transforms-3/7b3b1c6696312202257ebdd554bffebd/transformed/browser-1.4.0/res/values-te/values-te.xml",
-                    "from": {
-                        "startLines": "2,3,4,5",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,166,272,383",
-                        "endColumns": "110,105,110,106",
-                        "endOffsets": "161,267,378,485"
-                    },
-                    "to": {
-                        "startLines": "59,62,63,64",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "6031,6302,6408,6519",
-                        "endColumns": "110,105,110,106",
-                        "endOffsets": "6137,6403,6514,6621"
-                    }
-                },
-                {
-                    "source": "/Users/anees/.gradle/caches/transforms-3/a9178a6937f4e0755c95acdbe8cb72b1/transformed/play-services-basement-18.3.0/res/values-te/values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "195",
-                        "endColumns": "133",
-                        "endOffsets": "328"
-                    },
-                    "to": {
-                        "startLines": "49",
-                        "startColumns": "4",
-                        "startOffsets": "4817",
-                        "endColumns": "137",
-                        "endOffsets": "4950"
-                    }
-                },
-                {
-                    "source": "/Users/anees/.gradle/caches/transforms-3/0069cd3624a685957ba9fca3c85ac0e0/transformed/material-1.10.0/res/values-te/values-te.xml",
+                    "source": "/Users/anees/.gradle/caches/transforms-3/98f4e33f0ee3640dec0536886f0635bb/transformed/material-1.10.0/res/values-te/values-te.xml",
                     "from": {
                         "startLines": "2,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -74,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "/Users/anees/.gradle/caches/transforms-3/3cbf10b2447b43bdc4cca4e7ed52bcd7/transformed/play-services-base-18.0.1/res/values-te/values.xml",
+                    "source": "/Users/anees/.gradle/caches/transforms-3/7ba5a8a960bed334f1c847871e6f2c19/transformed/play-services-base-18.0.1/res/values-te/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -91,7 +40,58 @@
                     }
                 },
                 {
-                    "source": "/Users/anees/.gradle/caches/transforms-3/7c327eebcd1ac8f5a87b84d054352e59/transformed/appcompat-1.6.1/res/values-te/values-te.xml",
+                    "source": "/Users/anees/.gradle/caches/transforms-3/2df53f1f4567bc9539eec0f2bbda18fb/transformed/browser-1.4.0/res/values-te/values-te.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,166,272,383",
+                        "endColumns": "110,105,110,106",
+                        "endOffsets": "161,267,378,485"
+                    },
+                    "to": {
+                        "startLines": "59,62,63,64",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "6031,6302,6408,6519",
+                        "endColumns": "110,105,110,106",
+                        "endOffsets": "6137,6403,6514,6621"
+                    }
+                },
+                {
+                    "source": "/Users/anees/.gradle/caches/transforms-3/af5b106ff46b0cad3ce0c0efdd291090/transformed/core-1.9.0/res/values-te/values-te.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "124",
+                        "startColumns": "4",
+                        "startOffsets": "11391",
+                        "endColumns": "100",
+                        "endOffsets": "11487"
+                    }
+                },
+                {
+                    "source": "/Users/anees/.gradle/caches/transforms-3/8c84931cc22c7b876f94e064b2f7dc1c/transformed/play-services-basement-18.3.0/res/values-te/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "195",
+                        "endColumns": "133",
+                        "endOffsets": "328"
+                    },
+                    "to": {
+                        "startLines": "49",
+                        "startColumns": "4",
+                        "startOffsets": "4817",
+                        "endColumns": "137",
+                        "endOffsets": "4950"
+                    }
+                },
+                {
+                    "source": "/Users/anees/.gradle/caches/transforms-3/f0bb0b73702172f555f3ce0d1be011ea/transformed/appcompat-1.6.1/res/values-te/values-te.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

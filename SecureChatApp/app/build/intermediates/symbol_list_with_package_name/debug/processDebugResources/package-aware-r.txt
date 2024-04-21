@@ -3336,11 +3336,13 @@ id immediateStop
 id included
 id indeterminate
 id info
+id inputCode1
+id inputCode2
+id inputCode3
+id inputCode4
+id inputCode5
+id inputCode6
 id inputMobile
-id inputcode1
-id inputcode2
-id inputcode3
-id inputcode4
 id invisible
 id inward
 id italic

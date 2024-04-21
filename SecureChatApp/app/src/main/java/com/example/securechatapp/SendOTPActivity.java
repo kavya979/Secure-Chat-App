@@ -52,7 +52,7 @@ public class SendOTPActivity extends AppCompatActivity {
 
                 PhoneAuthOptions  options =
                         PhoneAuthOptions.newBuilder(mAuth)
-                                .setPhoneNumber("+91 "+inputMobile.getText().toString())
+                                .setPhoneNumber("+91"+inputMobile.getText().toString())
                                 .setTimeout(60L, TimeUnit.SECONDS)
                                 .setActivity(SendOTPActivity.this).setCallbacks(new PhoneAuthProvider.OnVerificationStateChangedCallbacks() {
                                     @Override
@@ -69,6 +69,8 @@ public class SendOTPActivity extends AppCompatActivity {
                                     public void onCodeSent(@NonNull String verificationId,
                                                            @NonNull PhoneAuthProvider.ForceResendingToken token) {
 
+                                        Toast.makeText(SendOTPActivity.this,"OTP is Sent" , Toast.LENGTH_SHORT).show();
+
                                         mVerificationId = verificationId;
                                         mResendToken = token;
                                         Intent intent = new Intent(getApplicationContext(), com.example.securechatapp.VerifyOTPActivity.class);
@@ -76,6 +78,7 @@ public class SendOTPActivity extends AppCompatActivity {
                                         intent.putExtra("verificationID",mVerificationId);
                                         intent.putExtra("resendToken",mResendToken);
                                         startActivity(intent);
+                                        finish();
                                     }
 
                                 }).build();

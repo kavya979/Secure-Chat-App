@@ -4,7 +4,7 @@
             "outputFile": "com.example.securechatapp-mergeDebugResources-34:/values-v24/values-v24.xml",
             "map": [
                 {
-                    "source": "/Users/anees/.gradle/caches/transforms-3/7c327eebcd1ac8f5a87b84d054352e59/transformed/appcompat-1.6.1/res/values-v24/values-v24.xml",
+                    "source": "/Users/anees/.gradle/caches/transforms-3/f0bb0b73702172f555f3ce0d1be011ea/transformed/appcompat-1.6.1/res/values-v24/values-v24.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "/Users/anees/.gradle/caches/transforms-3/0069cd3624a685957ba9fca3c85ac0e0/transformed/material-1.10.0/res/values-v24/values-v24.xml",
+                    "source": "/Users/anees/.gradle/caches/transforms-3/98f4e33f0ee3640dec0536886f0635bb/transformed/material-1.10.0/res/values-v24/values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,9,12,15",
                         "startColumns": "4,4,4,4,4,4,4,4",
