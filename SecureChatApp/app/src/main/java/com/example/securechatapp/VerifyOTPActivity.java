@@ -1,4 +1,4 @@
-package com.example.myapplication;
+package com.example.securechatapp;
 
 import android.os.Bundle;
 import android.text.Editable;

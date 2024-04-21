@@ -1,17 +1,17 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.securechatapp-mergeDebugResources-29:/values-night-v8/values-night-v8.xml",
+            "outputFile": "com.example.securechatapp-mergeDebugResources-34:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Manibharathi\\Secure-Chat-App\\SecureChatApp\\app\\src\\main\\res\\values-night\\themes.xml",
+                    "source": "/Users/anees/AndroidStudioProjects/Secure-Chat-App/SecureChatApp/app/src/main/res/values-night/themes.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
-                        "startOffsets": "102",
+                        "startOffsets": "100",
                         "endLines": "5",
                         "endColumns": "12",
-                        "endOffsets": "325"
+                        "endOffsets": "320"
                     },
                     "to": {
                         "startLines": "2",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Manibharathi\\.gradle\\caches\\transforms-3\\6c64ace079192a0787e54575b29f2dd0\\transformed\\appcompat-1.6.1\\res\\values-night-v8\\values-night-v8.xml",
+                    "source": "/Users/anees/.gradle/caches/transforms-3/7c327eebcd1ac8f5a87b84d054352e59/transformed/appcompat-1.6.1/res/values-night-v8/values-night-v8.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -40,7 +40,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Manibharathi\\.gradle\\caches\\transforms-3\\bd898cd7186099bbd414591c4f5d0e28\\transformed\\material-1.10.0\\res\\values-night-v8\\values-night-v8.xml",
+                    "source": "/Users/anees/.gradle/caches/transforms-3/0069cd3624a685957ba9fca3c85ac0e0/transformed/material-1.10.0/res/values-night-v8/values-night-v8.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

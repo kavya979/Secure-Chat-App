@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.securechatapp-mergeDebugResources-29:/values-v16/values-v16.xml",
+            "outputFile": "com.example.securechatapp-mergeDebugResources-34:/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Manibharathi\\.gradle\\caches\\transforms-3\\464f2bcfc6e080d70c0864f7acc98f4f\\transformed\\core-1.9.0\\res\\values-v16\\values-v16.xml",
+                    "source": "/Users/anees/.gradle/caches/transforms-3/d6b5038a795d115b79b360a5154e8ddf/transformed/core-1.9.0/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Manibharathi\\.gradle\\caches\\transforms-3\\6c64ace079192a0787e54575b29f2dd0\\transformed\\appcompat-1.6.1\\res\\values-v16\\values-v16.xml",
+                    "source": "/Users/anees/.gradle/caches/transforms-3/7c327eebcd1ac8f5a87b84d054352e59/transformed/appcompat-1.6.1/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

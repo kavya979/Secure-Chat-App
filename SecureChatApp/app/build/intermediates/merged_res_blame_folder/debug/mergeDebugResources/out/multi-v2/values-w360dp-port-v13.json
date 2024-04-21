@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.securechatapp-mergeDebugResources-29:/values-w360dp-port-v13/values-w360dp-port-v13.xml",
+            "outputFile": "com.example.securechatapp-mergeDebugResources-34:/values-w360dp-port-v13/values-w360dp-port-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Manibharathi\\.gradle\\caches\\transforms-3\\bd898cd7186099bbd414591c4f5d0e28\\transformed\\material-1.10.0\\res\\values-w360dp-port-v13\\values-w360dp-port-v13.xml",
+                    "source": "/Users/anees/.gradle/caches/transforms-3/0069cd3624a685957ba9fca3c85ac0e0/transformed/material-1.10.0/res/values-w360dp-port-v13/values-w360dp-port-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
