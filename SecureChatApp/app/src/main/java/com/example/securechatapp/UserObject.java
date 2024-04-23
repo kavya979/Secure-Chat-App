@@ -4,6 +4,9 @@ public class UserObject {
     private String username;
     private String phone;
 
+    public UserObject() {
+        // Required empty public constructor for Firestore
+    }
     public UserObject(String username, String phone) {
         this.username = username;
         this.phone = phone;

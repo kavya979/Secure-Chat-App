@@ -21,9 +21,6 @@ public class SelectGender extends AppCompatActivity {
         setContentView(R.layout.item_layout);
 
         data = new MainActivity();
-        for( Test_data item: data.contacts){
-            Select_gender(item.getGender());
-        }
     }
     private void Select_gender(String gender){
         if(gender == "Male") {

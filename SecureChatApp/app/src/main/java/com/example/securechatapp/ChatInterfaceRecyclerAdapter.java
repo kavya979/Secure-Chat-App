@@ -12,8 +12,11 @@ import androidx.recyclerview.widget.RecyclerView;
 import java.util.ArrayList;
 import java.util.List;
 
+
+// ChatInterfaceRecyclerAdapter.java
+
 public class ChatInterfaceRecyclerAdapter extends RecyclerView.Adapter<ChatInterfaceRecyclerAdapter.ViewHolder> {
-    private List<Test_data> FilteredDataList;
+    private List<UserObject> FilteredDataList;
 
     public interface SelectListener {
         void onClickListener(int position);
@@ -26,18 +29,18 @@ public class ChatInterfaceRecyclerAdapter extends RecyclerView.Adapter<ChatInter
     private SelectListener mSelectListener;
 
     private SearchListener searchListener;
-    private List<Test_data> contacts;
+    private List<UserObject> contacts;
     //private List<Test_data> filteredContacts;
 
-    public ChatInterfaceRecyclerAdapter(List<Test_data> contacts, SearchListener searchListener, SelectListener selectListener) {
+    public ChatInterfaceRecyclerAdapter(List<UserObject> contacts, SearchListener searchListener, SelectListener selectListener) {
 
         this.contacts = contacts;
-       // this.filteredContacts = contacts;
+        // this.filteredContacts = contacts;
         this.searchListener = searchListener;
         this.mSelectListener = selectListener;
     }
 
-    public ChatInterfaceRecyclerAdapter(ArrayList<Test_data> contacts) {
+    public ChatInterfaceRecyclerAdapter(ArrayList<UserObject> contacts) {
         this.contacts = contacts;
     }
 
@@ -51,8 +54,8 @@ public class ChatInterfaceRecyclerAdapter extends RecyclerView.Adapter<ChatInter
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
 
-        holder.Name.setText(contacts.get(position).getNames());
-        holder.user_name.setText(contacts.get(position).getUnames());
+        holder.Name.setText(contacts.get(position).getUsername());
+        holder.user_name.setText(contacts.get(position).getPhone());
     }
 
     @Override
@@ -83,10 +86,11 @@ public class ChatInterfaceRecyclerAdapter extends RecyclerView.Adapter<ChatInter
     }
 
     //filter method
-    public void filter1(List<Test_data> filteredContacts) {
+    public void filter1(ArrayList<UserObject> filteredContacts) {
         contacts = filteredContacts;
         notifyDataSetChanged();
     }
-
-
 }
+
+
+

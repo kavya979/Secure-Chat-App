@@ -4,7 +4,17 @@
             "outputFile": "com.example.securechatapp-mergeDebugResources-34:/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Kavya\\.gradle\\caches\\transforms-3\\ff363ec88df9a65b1e421b41ebf56cad\\transformed\\appcompat-1.6.1\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\Manibharathi\\.gradle\\caches\\transforms-3\\6b7d6bd93028d088bcfc112f32adf33e\\transformed\\core-1.9.0\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Manibharathi\\.gradle\\caches\\transforms-3\\29c7bbf3e677d21800fbc5e20ec482e7\\transformed\\appcompat-1.6.1\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -20,16 +30,6 @@
                         "endLines": "6",
                         "endColumns": "12",
                         "endOffsets": "289"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Kavya\\.gradle\\caches\\transforms-3\\a0a34dc9129de5f22233db1dea84375c\\transformed\\core-1.9.0\\res\\values-v16\\values-v16.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "65",
-                        "endOffsets": "116"
                     }
                 }
             ]

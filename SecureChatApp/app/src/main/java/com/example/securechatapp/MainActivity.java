@@ -25,72 +25,103 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.ListIterator;
 
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.Task;
+import com.google.firebase.auth.AuthResult;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.PhoneAuthCredential;
+import com.google.firebase.auth.PhoneAuthProvider;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
+import com.google.firebase.firestore.CollectionReference;
+import com.google.firebase.firestore.DocumentReference;
+import com.google.firebase.firestore.DocumentSnapshot;
+import com.google.firebase.firestore.EventListener;
+import com.google.firebase.firestore.FirebaseFirestore;
+import com.google.firebase.firestore.FirebaseFirestoreException;
+import com.google.firebase.firestore.QuerySnapshot;
+import com.google.firebase.firestore.auth.User;
+import com.google.firebase.database.DatabaseReference;
+import android.util.Log;
+
+
+// MainActivity.java
+
 public class MainActivity extends AppCompatActivity {
 
+    private static final String TAG = "MyActivity";
     private RecyclerView recyclerView;
     private SearchView searchView;
     private ChatInterfaceRecyclerAdapter adapter;
-    public ArrayList<Test_data> contacts;
-
-    //private SelectGender selectGender;
-
-
-    // TO- DO --->>    change the manifest.xml file to login page as launcher and create a separate activity for chat interface...........
+    private ArrayList<UserObject> contacts;
+    private CollectionReference collectionReference;
+    private DocumentSnapshot document;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.chat_interface);
 
-        //
         recyclerView = findViewById(R.id.contactsList);
         searchView = findViewById(R.id.searchView);
 
-        // sample data.......aprm ah change pannanum
-        contacts = new ArrayList<>();
-        contacts.add(new Test_data("Alice", "alice123", "Female"));
-        contacts.add(new Test_data("Bob", "bob456","Male"));
-        contacts.add(new Test_data("Charlie", "charlie789","Male"));
-        contacts.add(new Test_data("David", "david101","Male"));
-
-        contacts.add(new Test_data("Alice", "alice123", "Female"));
-        contacts.add(new Test_data("Bob", "bob456","Male"));
-        contacts.add(new Test_data("Charlie", "charlie789","Male"));
-        contacts.add(new Test_data("David", "david101","Male"));
-
-        contacts.add(new Test_data("Alice", "alice123", "Female"));
-        contacts.add(new Test_data("Bob", "bob456","Male"));
-        contacts.add(new Test_data("Charlie", "charlie789","Male"));
-        contacts.add(new Test_data("David", "david101","Male"));
-
-        //select gender
-
-        // Inside your MainActivity.java file
+        contacts = new ArrayList<UserObject>();
+        FirebaseFirestore db = FirebaseFirestore.getInstance();
+        collectionReference = db.collection("users");
 
 
 
-        // Set up RecyclerView
+        //doc ref
+        DocumentReference docRef = db.collection("users").document("user1");
+
+        docRef.get().addOnCompleteListener(task -> {
+           if (task.isSuccessful()) {
+                document = task.getResult(); // Assign the DocumentSnapshot to the document variable
+            }
+        });
+
+        collectionReference.addSnapshotListener(new EventListener<QuerySnapshot>() {
+            @Override
+            public void onEvent(@Nullable QuerySnapshot snapshot, @Nullable FirebaseFirestoreException error) {
+                if (error != null) {
+                    Log.e(TAG, "Listen failed: " + error);
+                    return;
+                }
+
+                if (snapshot != null) {
+                    for (DocumentSnapshot document1 : snapshot.getDocuments()) {
+                        // Handle each document here
+                        String documentId = document1.getId();
+                        UserObject user = document1.toObject(UserObject.class);
+                        contacts.add(user);
+                    }
+                    adapter.notifyDataSetChanged(); // Notify adapter of data changes
+                } else {
+                    Log.d(TAG, "Current data: null");
+                }
+            }
+        });
+
         adapter = new ChatInterfaceRecyclerAdapter(contacts, new ChatInterfaceRecyclerAdapter.SearchListener() {
             @Override
             public void onSelect(int position) {
                 // Handle item selection
-
-
             }
         }, new ChatInterfaceRecyclerAdapter.SelectListener() {
             @Override
             public void onClickListener(int position) {
-                // Handle item click
-                Test_data selectedContact = contacts.get(position);
+                UserObject selectedContact = contacts.get(position);
                 Intent intent = new Intent(MainActivity.this, ChatActivity.class);
-                intent.putExtra("contactName", selectedContact.getNames());
+                intent.putExtra("contactName", selectedContact.getUsername());
                 startActivity(intent);
             }
         });
+
         recyclerView.setAdapter(adapter);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
 
-        // Set up SearchView
         searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
             @Override
             public boolean onQueryTextSubmit(String query) {
@@ -104,11 +135,13 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        }
+
+    }
+
     public void filter(String query){
-        List<Test_data> filterContacts = new ArrayList<Test_data>();
-        for (Test_data item : contacts){
-            if(item.getNames().toLowerCase().contains(query.toLowerCase())){
+        ArrayList<UserObject> filterContacts = new ArrayList<>();
+        for (UserObject item : contacts){
+            if(item.getUsername().toLowerCase().startsWith(query.toLowerCase())){
                 filterContacts.add(item);
             }
         }
@@ -118,7 +151,11 @@ public class MainActivity extends AppCompatActivity {
 }
 
 
-// copy the coe of main class and paste it in the chat interface class.
+
+
+
+
+// copy the code of main class and paste it in the chat interface class.
 
 
 
@@ -131,9 +168,3 @@ public class MainActivity extends AppCompatActivity {
     }
 }
 */
-
-
-
-
-
-

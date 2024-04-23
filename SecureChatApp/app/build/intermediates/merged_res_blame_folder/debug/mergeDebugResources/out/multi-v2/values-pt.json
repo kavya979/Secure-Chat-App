@@ -4,7 +4,7 @@
             "outputFile": "com.example.securechatapp-mergeDebugResources-34:/values-pt/values-pt.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Kavya\\.gradle\\caches\\transforms-3\\3f3740cedce6578328486774d07dc3da\\transformed\\browser-1.4.0\\res\\values-pt\\values-pt.xml",
+                    "source": "C:\\Users\\Manibharathi\\.gradle\\caches\\transforms-3\\4cb2b0f08fb98aeaf66dd5581c95a792\\transformed\\browser-1.4.0\\res\\values-pt\\values-pt.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Kavya\\.gradle\\caches\\transforms-3\\ff363ec88df9a65b1e421b41ebf56cad\\transformed\\appcompat-1.6.1\\res\\values-pt\\values-pt.xml",
+                    "source": "C:\\Users\\Manibharathi\\.gradle\\caches\\transforms-3\\29c7bbf3e677d21800fbc5e20ec482e7\\transformed\\appcompat-1.6.1\\res\\values-pt\\values-pt.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -38,7 +38,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Kavya\\.gradle\\caches\\transforms-3\\a0a34dc9129de5f22233db1dea84375c\\transformed\\core-1.9.0\\res\\values-pt\\values-pt.xml",
+                    "source": "C:\\Users\\Manibharathi\\.gradle\\caches\\transforms-3\\6b7d6bd93028d088bcfc112f32adf33e\\transformed\\core-1.9.0\\res\\values-pt\\values-pt.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

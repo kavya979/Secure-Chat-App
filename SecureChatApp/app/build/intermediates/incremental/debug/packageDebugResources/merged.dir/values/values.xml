@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="colorAccent">#F44336</color>
+    <color name="colorDivider">#BDBDBD</color>
+    <color name="colorPrimary">#03A9F4</color>
+    <color name="colorPrimaryDark">#536DFE</color>
+    <color name="colorTextPrimary">#212121</color>
+    <color name="colorTextSecondary">#757575</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="ic_launcher_background">#FFFFFF</color>
+    <color name="white">#FFFFFFFF</color>
+    <dimen name="_10dp">10dp</dimen>
+    <string name="Verify">Verify</string>
+    <string name="_91">+91-</string>
+    <string name="_phone">XXXXXXXXXX</string>
+    <string name="app_name">Secure Chat App</string>
+    <string name="didn_t_receive_the_otp">Didn\'t receive the OTP?</string>
+    <string name="enter_the_mobile_number">Enter the Mobile Number</string>
+    <string name="enter_the_otp_sent_to">Enter the OTP sent to</string>
+    <string name="enter_your_username">Enter Your Username</string>
+    <string name="gcm_defaultSenderId" translatable="false">1054176347986</string>
+    <string name="get_otp">Get OTP</string>
+    <string name="google_api_key" translatable="false">AIzaSyCY93vjc48PNEo8pmKl1XOHHGTxTx2wv7g</string>
+    <string name="google_app_id" translatable="false">1:1054176347986:android:3d56ed28d8ae1a59aa1c8b</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCY93vjc48PNEo8pmKl1XOHHGTxTx2wv7g</string>
+    <string name="google_storage_bucket" translatable="false">chatapp-eb767.appspot.com</string>
+    <string name="otp_verification">OTP_VERIFICATION</string>
+    <string name="project_id" translatable="false">chatapp-eb767</string>
+    <string name="resend_otp">resend otp</string>
+    <string name="send_otp">Send OTP</string>
+    <string name="submit">Submit</string>
+    <string name="verify_otp">VERIFY OTP</string>
+    <string name="we_will_send_you_an_one_time_password_on_this_mobile_number">We will send you an One Time Password on this mobile number</string>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="Base.Theme.SecureChatApp" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.SecureChatApp" parent="Base.Theme.SecureChatApp"/>
+</resources>
